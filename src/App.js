@@ -5,9 +5,20 @@ import { isExportNamedDeclaration, isImportNamespaceSpecifier } from '@babel/typ
 
 class App extends Component {
 
+  state = {
+    input: ''
+  }
+
   submit = () => {
     console.log(this.text.value);
   }
+
+  inputedValue = (event) => {
+    this.setState({
+      input: event.target.value
+    })
+  }
+
 
   render() {
     return (
@@ -19,6 +30,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <h3>{this.state.input}</h3>
+        <input type="text" onChange={this.inputedValue} value={this.state.input}></input>
         <input type="text" ref={(input) => this.text = input}></input>
         <button onClick={this.submit}>Show Value</button>
       </div>
