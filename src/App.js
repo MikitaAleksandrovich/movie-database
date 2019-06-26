@@ -1,3 +1,4 @@
+/* eslint react/no-did-mount-set-state: 0 */
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -5,9 +6,8 @@ import Movie from './Movie';
 
 
 class App extends Component {
-
   state = {
-    movies: []
+    movies: [],
   }
 
   async componentDidMount() {
@@ -15,7 +15,7 @@ class App extends Component {
       const res = await fetch('https://api.themoviedb.org/3/discover/movie?api_key=79adfc1182ee026e59e57a5e953591b4&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1');
       const movies = await res.json();
       this.setState({
-        movies: movies.results
+        movies: movies.results,
       });
     } catch (error) {
       console.log(error);
@@ -37,5 +37,3 @@ class App extends Component {
 
 
 export default App;
-
-
