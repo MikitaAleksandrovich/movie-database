@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/movie-database-React-App/static/css/main.d1bb2a05.chunk.css",
+    "main.js": "/movie-database-React-App/static/js/main.96fed5de.chunk.js",
+    "main.js.map": "/movie-database-React-App/static/js/main.96fed5de.chunk.js.map",
+    "runtime~main.js": "/movie-database-React-App/static/js/runtime~main.24162a3b.js",
+    "runtime~main.js.map": "/movie-database-React-App/static/js/runtime~main.24162a3b.js.map",
+    "static/js/2.dbd380ce.chunk.js": "/movie-database-React-App/static/js/2.dbd380ce.chunk.js",
+    "static/js/2.dbd380ce.chunk.js.map": "/movie-database-React-App/static/js/2.dbd380ce.chunk.js.map",
+    "index.html": "/movie-database-React-App/index.html",
+    "precache-manifest.6174a0b20ecf370fc62263e6d40e1e51.js": "/movie-database-React-App/precache-manifest.6174a0b20ecf370fc62263e6d40e1e51.js",
+    "service-worker.js": "/movie-database-React-App/service-worker.js",
+    "static/css/main.d1bb2a05.chunk.css.map": "/movie-database-React-App/static/css/main.d1bb2a05.chunk.css.map",
+    "static/media/logo.svg": "/movie-database-React-App/static/media/logo.ff9a163f.svg"
+  }
+}
